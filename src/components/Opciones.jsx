@@ -5,7 +5,7 @@ export default class Opciones extends React.Component{
     //recibe el objeto de opciones
     render(){
         return(
-            //tiene que renderizar dos botones con una opcion cada uno
+            //renderiza dos botones con una opcion cada uno
             <div className="opciones">
                 <div className="opcion">
                     <button className="botones" id="A" onClick={()=>this.props.handleOnClickA()}>A</button>

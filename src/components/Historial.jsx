@@ -5,12 +5,12 @@ export default class Historial extends React.Component{
 
     renderizarElementos(){
         return this.props.historial.map((opcion, index) => {
-              return (
+            return (
                 <li key={index}>
                   {opcion}
                 </li>
-              );
-            });
+            );
+        });
         
     }
 

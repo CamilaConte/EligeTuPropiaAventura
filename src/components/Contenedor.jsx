@@ -22,7 +22,7 @@ export default class Contenedor extends React.Component{
     }
 
 
-    componentDidUpdate(prevProps, prevState){
+omponentDidUpdate(    cprevProps, prevState){
         if(prevState.situacion !== this.state.situacion){
             let nuevoHistorial = this.state.historial;
             nuevoHistorial.push(this.state.seleccionPrevia)
