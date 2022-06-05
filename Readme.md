@@ -1,4 +1,4 @@
-**Primer evaluación entregable de Front-end III para C.T.D.**
+**Primer evaluación entregable de Front-end III para la carrera C.T.D. en Digital House**
 Realizada con React JS
 
 Se trata de un "Elige tu propia aventura". Cada situación con sus respectivas opciones son obtenidas de un JSON. 
